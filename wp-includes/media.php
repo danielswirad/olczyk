@@ -1741,6 +1741,7 @@ function gallery_shortcode( $attr ) {
 		if ( $captiontag && trim($attachment->post_excerpt) ) {
 			$output .= "
 				<{$captiontag} class='wp-caption-text gallery-caption' id='$selector-$id'>
+				<h6>" . wptexturize($attachment->post_title) . "</h6>
 				" . wptexturize($attachment->post_excerpt) . "
 				</{$captiontag}>";
 		}
