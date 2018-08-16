@@ -3223,7 +3223,7 @@ msgstr "Stała %1$s <strong>jest przestarzała</strong>. W celu umożliwienia ko
 msgid "Drag boxes here"
 msgstr "Przesuń tutaj sekcje"
 
-#: wp-includes/functions.php:2128
+#: wp-includes/functions.php:2115
 msgid "Invalid file type"
 msgstr "Nieprawidłowy typ pliku"
 
@@ -3338,31 +3338,31 @@ msgstr[0] "%s dzień"
 msgstr[1] "%s dni"
 msgstr[2] "%s dni"
 
-#: wp-includes/functions.php:2166
+#: wp-includes/functions.php:2153
 msgid "Could not write file %s"
 msgstr "Nie można było zapisać pliku %s"
 
-#: wp-includes/functions.php:2562
+#: wp-includes/functions.php:2549
 msgid "WordPress Failure Notice"
 msgstr "Informacja o niepowodzeniu WordPressa"
 
-#: wp-includes/functions.php:2555
+#: wp-includes/functions.php:2542
 msgid "Do you really want to <a href='%s'>log out</a>?"
 msgstr "Czy naprawdę chcesz się <a href='%s'>wylogować</a>?"
 
-#: wp-includes/functions.php:2559 wp-includes/ms-functions.php:1915
+#: wp-includes/functions.php:2546 wp-includes/ms-functions.php:1915
 msgid "Please try again."
 msgstr "Proszę spróbować ponownie."
 
-#: wp-includes/functions.php:2693 wp-load.php:92
+#: wp-includes/functions.php:2680 wp-load.php:92
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Błąd"
 
-#: wp-includes/functions.php:4463
+#: wp-includes/functions.php:4450
 msgid "Select a city"
 msgstr "Wybierz miasto"
 
-#: wp-includes/functions.php:4508 wp-includes/functions.php:4512
+#: wp-includes/functions.php:4495 wp-includes/functions.php:4499
 msgid "UTC"
 msgstr "UTC"
 
@@ -3641,7 +3641,7 @@ msgstr ","
 msgid "number_format_thousands_sep"
 msgstr " "
 
-#: wp-includes/functions.php:5113 wp-includes/user.php:280
+#: wp-includes/functions.php:5100 wp-includes/user.php:280
 msgid "Please log in again."
 msgstr "Proszę zalogować się ponownie."
 
@@ -3653,15 +3653,15 @@ msgstr "Zapamiętaj mnie"
 msgid "Your PHP installation appears to be missing the MySQL extension which is required by WordPress."
 msgstr "Twoja konfiguracja PHP nie posiada włączonej obsługi rozszerzenia MySQL, która jest wymagana przez WordPressa."
 
-#: wp-includes/functions.php:3901
+#: wp-includes/functions.php:3888
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "Funkcja %1$s została wywołana z argumentem, którego użycie jest <strong>przestarzałą praktyką</strong> od wersji %2$s! %3$s"
 
-#: wp-includes/functions.php:3903
+#: wp-includes/functions.php:3890
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "Funkcja %1$s została wywołana z argumentem, którego użycie jest <strong>przestarzałą praktyką</strong> od wersji %2$s! Nie istnieje żadna alternatywa."
 
-#: wp-includes/functions.php:3951
+#: wp-includes/functions.php:3938
 msgid "(This message was added in version %s.)"
 msgstr "(Ten komunikat został dodany w wersji %s.)"
 
@@ -3732,35 +3732,35 @@ msgstr "Skrypty i style nie powinny być rejestrowane ani dodawane do kolejek do
 msgid "The site you have requested is not installed properly. Please contact the system administrator."
 msgstr "Witryna, którą próbowano odwiedzić, nie została prawidłowo zainstalowana. Proszę skontaktować się z administratorem systemu."
 
-#: wp-includes/functions.php:1901 wp-includes/functions.php:2160
+#: wp-includes/functions.php:1888 wp-includes/functions.php:2147
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "Nie można utworzyć katalogu &#8222;%s&#8221;. Czy WordPress ma uprawnienie do zapisu do katalogu nadrzędnego?"
 
-#: wp-includes/functions.php:2124
+#: wp-includes/functions.php:2111
 msgid "Empty filename"
 msgstr "Nie podano nazwy pliku"
 
-#: wp-includes/functions.php:2553
+#: wp-includes/functions.php:2540
 msgid "You are attempting to log out of %s"
 msgstr "Zamierzasz wylogować się z witryny &#8222;%s&#8221;"
 
-#: wp-includes/functions.php:2681
+#: wp-includes/functions.php:2668
 msgid "&laquo; Back"
 msgstr "&laquo; Powrót"
 
-#: wp-includes/functions.php:3717 wp-includes/functions.php:3841
+#: wp-includes/functions.php:3704 wp-includes/functions.php:3828
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "Korzystanie z %1$s uznawane jest za <strong>przestarzałe</strong> od wersji %2$s! Zamiast tego użyj %3$s."
 
-#: wp-includes/functions.php:3719 wp-includes/functions.php:3843
+#: wp-includes/functions.php:3706 wp-includes/functions.php:3830
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "Korzystanie z %1$s uznawane jest za <strong>przestarzałe</strong> od wersji %2$s! Nie istnieje żadna alternatywa."
 
-#: wp-includes/functions.php:3956
+#: wp-includes/functions.php:3943
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "Funkcja %1$s została wywołana <strong>nieprawidłowo</strong>. %2$s %3$s"
 
-#: wp-includes/functions.php:4516
+#: wp-includes/functions.php:4503
 msgid "Manual Offsets"
 msgstr "Ręczny wybór różnicy"
 
@@ -3785,11 +3785,11 @@ msgstr "Niebieski"
 msgid "Preload"
 msgstr "Wczytuj wstępnie"
 
-#: wp-includes/functions.php:3653
+#: wp-includes/functions.php:3640
 msgid "Database Error"
 msgstr "Błąd połączenia z bazą danych"
 
-#: wp-includes/functions.php:3657 wp-includes/ms-load.php:286
+#: wp-includes/functions.php:3644 wp-includes/ms-load.php:286
 #: wp-includes/wp-db.php:1600
 msgid "Error establishing a database connection"
 msgstr "Błąd łączenia się z bazą danych"
@@ -4032,7 +4032,7 @@ msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Szukaj &hellip;"
 
-#: wp-includes/functions.php:5112 wp-includes/script-loader.php:448
+#: wp-includes/functions.php:5099 wp-includes/script-loader.php:448
 msgid "Session expired"
 msgstr "Sesja wygasła"
 
@@ -4041,7 +4041,7 @@ msgctxt "label"
 msgid "Search for:"
 msgstr "Szukaj:"
 
-#: wp-includes/functions.php:5114
+#: wp-includes/functions.php:5101
 msgid "The login page will open in a new window. After logging in you can close it and return to this page."
 msgstr "Okno logowania zostanie otwarte w nowym oknie. Po zalogowaniu można je zamknąć i wrócić na tę stronę."
 
@@ -4764,7 +4764,7 @@ msgid "words"
 msgstr "words"
 
 #. translators: 1: PHP class name, 2: version number, 3: __construct() method
-#: wp-includes/functions.php:3780
+#: wp-includes/functions.php:3767
 msgid "The called constructor method for %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "Wywołany konstruktor metody dla %1$s jest <strong>przestarzały</strong> od wersji %2$s! Zamiast z niego, skorzystaj z %3$s."
 
@@ -4803,7 +4803,7 @@ msgstr "Nowsze komentarze"
 msgid "Older comments"
 msgstr "Starsze komentarze"
 
-#: wp-includes/functions.php:3954
+#: wp-includes/functions.php:3941
 msgid "https://codex.wordpress.org/Debugging_in_WordPress"
 msgstr "https://codex.wordpress.org/Debugging_in_WordPress"
 
@@ -4905,7 +4905,7 @@ msgid "<strong>ERROR</strong>: %1$s in %2$s can only contain numbers, letters, a
 msgstr "<strong>BŁĄD</strong>: %1$s w %2$s może zawierać tylko liczby, litery i znaki podkreślenia."
 
 #. translators: %s: Codex URL
-#: wp-includes/functions.php:3953
+#: wp-includes/functions.php:3940
 msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information."
 msgstr "Dowiedz się więcej: <a href=\"%s\">Debugowanie w WordPressie</a>."
 
@@ -5105,11 +5105,11 @@ msgstr "Proszę nie wyrejestrowywać skryptu %1$s w panelu administracyjnym. Aby
 
 #. translators: 1: PHP class name, 2: PHP parent class name, 3: version number,
 #. 4: __construct() method
-#: wp-includes/functions.php:3776
+#: wp-includes/functions.php:3763
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "Wywołana metoda konstruktora klasy %1$s w %2$s jest <strong>przestarzała</strong> od wersji %3$s! Zamiast niej użyj %4$s."
 
-#: wp-includes/functions.php:5101
+#: wp-includes/functions.php:5088
 msgid "Close dialog"
 msgstr "Zamknij okienko dialogowe"
 
@@ -5301,7 +5301,7 @@ msgstr "nowa pętla WordPressa"
 msgid ", "
 msgstr ", "
 
-#: wp-includes/deprecated.php:3122 wp-includes/functions.php:2557
+#: wp-includes/deprecated.php:3122 wp-includes/functions.php:2544
 msgid "Are you sure you want to do this?"
 msgstr "Czy na pewno chcesz to zrobić?"
 
@@ -7072,7 +7072,7 @@ msgid "Visual"
 msgstr "Wizualny"
 
 #: wp-includes/admin-bar.php:734 wp-includes/class-wp-customize-widgets.php:418
-#: wp-includes/functions.php:3594
+#: wp-includes/functions.php:3581
 msgid "Widgets"
 msgstr "Widgety"
 
